@@ -1,0 +1,22 @@
+--linear search : it linearly iterates through loop and search element.
+best = o(1)
+average = o(n)
+worst = o(n)
+
+--binary search: it goes to mid element each time and checks if th element is less than or greater and decreses the range.
+best = o(1)
+average = o(logn)
+worst = o(logn)
+
+--jump search: it uses a jump size by rooting the size of array and at last loop over the step size
+best = o(1)
+average =  O(√n)
+worst =  O(√n)
+
+--interpolation : it uses some kind of line equation to evalute range and its random .
+average = O(loglogN)
+
+--exponential search: first finds the range, then apply the binary search on the range
+best = o(1)
+worst = o(log i ) i defines search key.
+
